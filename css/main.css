@@ -1,0 +1,162 @@
+
+h1 {
+    color: rgb(7, 7, 109);
+   font-size: 50px;
+   font-style: <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+
+}
+
+/*alineacion Textos*/
+
+h1 {
+    text-align: center;
+    background-color: white;
+    background-image: url(https://fdn.gsmarena.com/imgroot/news/20/10/apple-iphone-12-hot-take/-1200/gsmarena_001.jpg);
+    background-repeat: repeat-x,
+    repeat-y;
+
+
+}
+
+/*estilos*/
+
+.titulos {
+    color: rgb(7, 7, 109);
+    font-weight: bold;
+    font-size: 30px;
+
+    /*grid*/
+
+    grid-template-areas:none;
+    grid-template-rows:auto; 
+    grid-template-columns:min-content;
+    grid-area:unset;
+
+}
+h2 .equipos {
+
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows:auto;
+}
+ 
+ ul #nav {
+
+    justify-items: center;
+}
+
+
+
+#nav li a {
+    color: rgb(240, 20, 203);
+    list-style:none;
+    margin:0;
+    padding:0;
+    position: relative;
+
+
+}
+
+#parrafo {
+    color: rgb(20, 193, 216);
+    font-size: 20px;
+    font-style: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+ 
+}
+
+#parrafo span{
+    color: red;
+    font-style: <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+ 
+}
+
+.color-red { 
+    color: rgb(20, 193, 216);
+    
+}
+
+.color-blue {
+    color: blue;
+}
+ul {color: coral;}
+
+ul a { color:rgb(240, 20, 203);
+    background-color: beige;
+
+   width: 400px;
+   height: 250px;
+
+}
+
+li {color: rgb(20, 193, 216);
+
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p {color: darkslategrey;
+
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+/*tablas*/
+
+#tablaSpecs {
+
+    color: rgb(20, 193, 216);
+    font-size: 20px;
+    background-color: rgb(1, 141, 129);
+    border-top:solid 10px black;	
+    border-right:solid 10px black;
+    border-bottom:solid 10px black;
+    border-left:solid  10px black;
+    padding-inline-end: 50px;
+    margin: auto;
+    
+
+}
+
+th {
+color:rgb(0, 0, 0);
+font-size: 25px;
+}
+
+a { text-decoration: none;
+}
+
+.animate__animated {
+    animation-iteration-count: infinite;
+
+    
+ 
+}
+
+.equipos{
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-between;
+background-image:linear-gradient(blue, white);
+
+}
+
+.equipos a:hover {
+ transform: scale(1,1.15);
+} 
+
+
+.logo img {
+
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 8px;
+}
